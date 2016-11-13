@@ -27,6 +27,7 @@
 // 	}
 // }
 
+
 var board = document.getElementById('game-board');
 var cards = ['queen', 'queen', 'king', 'king'];
 var cardsInPlay = [];
@@ -86,3 +87,5 @@ function isTwoCards() {
   }
 
 }
+
+createBoard();
